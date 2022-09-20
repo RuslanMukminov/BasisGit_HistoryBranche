@@ -15,11 +15,11 @@ public class SalesManager {
         return max;
     }
 
-    public int trimAverage() {
-        int max = -1;
-        int sum = 0;
-        int min = sales[0];
-        for (int sale : sales) {
+    public long trimAverage() {
+        long max = -1;
+        long sum = 0;
+        long min = sales[0];
+        for (long sale : sales) {
             if (sale > max) {
                 max = sale;
             } else if (sale < min) {
