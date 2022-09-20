@@ -7,5 +7,7 @@ public class Main {
         int maxSales = sales.max();
         System.out.println("Max of Sales: " + maxSales);
 
+        int trimAverage = sales.trimAverage();
+        System.out.println("Trimmed average: " + trimAverage);
     }
 }
