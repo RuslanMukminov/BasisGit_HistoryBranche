@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        long[] example = {1, 2, 3, 4, 0, 7, 7};
+        long[] example = {1, 2, 3, 4, 1, 7, 7};
 
         SalesManager sales = new SalesManager(example);
 

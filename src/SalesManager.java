@@ -27,6 +27,6 @@ public class SalesManager {
             }
             sum += sale;
         }
-        return (sum - max - min) / (sales.length - 2);
+        return (sum - max - min) / sales.length;
     }
 }
